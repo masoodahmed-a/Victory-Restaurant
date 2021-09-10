@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+header{
+    background-color: #eaf0fd;
+}
+
+.asia{
+    background-image: url('img/banner-bg.jpg');
+}
+.wecook{
+    background-color: #f0745e;
+}
+.lightcolor{
+    background-color: #f1816c;
+}
+.dish1 img, .dish-2 img, .dish-3 img, .dish-4 img{
+    border-width: 10px;
+    border-style: solid;
+    border-color: #eaf0fd;
+    order-image: initial;
+    border-radius: 50% 50% 50% 50%; 
+    padding: 0% ; 
+}
+.book-table{
+    background-image: url('img/bg-banner-2.jpg');
+}
+button{
+    background-color: #f0745e;
+}
+.application{
+    background-color: #f0745e;
+}
+.blog{
+    background-color: #f0f8fe;
+}
+.sign{
+  background-image: url('img/bg-banner-2.jpg');    
+}
+.send{
+    background-color: transparent;
+}
+footer{
+    background-color: #363e50;
+}
+
+@media screen and (min-width: 375px) {
+    .list{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .bar{
+        display: none;
+    }
+    .asia button{
+        margin-left: 620px;
+        margin-bottom: 200px;
+    }
+    .list{
+        display: block;
+        display: flex;
+    }
+    /* asia end here */
+    .system-wecook{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .wecook{
+        height: 400px;
+        width: 30%;
+    }
+    .application button{
+        margin-left: 600px;
+    }
+    .breakfast{
+        background-color: #f0f8fe;
+        width: 400px;
+    }
+    .breakfast hr{
+        width: 310px;
+    }
+
+    .lunch{
+        background-color: #f0f8fe;
+        width: 400px;
+    }
+    .lunch hr{
+        width: 310px;
+    }
+
+    .dinner{
+        background-color: #f0f8fe;
+        width: 400px;
+    }
+    .dinner hr{
+        width: 310px;
+    }
+
+
+   
+    
+    
+}

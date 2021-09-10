@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Demo.css">
+    <script src="https://kit.fontawesome.com/a8dfb1054e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <p class="text-4xl text-semibold text-center pt-5 font-serif pb-5">Victory</p>
+        <hr class="xl:w-1/2 xl:ml-96 ">
+        <hr class="xl:w-1/2 xl:ml-96 ">
+
+
+        <ul class="flex space-x-10 list  ml-80 pt-5 px-48 text-sm cursor-pointer pb-10 ">
+            <li>HOME</li>
+            <li>OUR MENUS</li>
+            <li>BLOGS</li>
+            <li>CONTACT US</li>
+        </ul>
+        <div class="bar">
+            <i class="fas fa-bars ml-44 py-5 hover:text-yellow-700 "></i>
+        </div>
+    </header>
+
+     <!-- asia start here -->
+     <div class="asia text-white pt-24 px-3">
+        <p class="text-center text-sm pb-5 ">HERE YOU CAN FINE DELICIOUS FOOD </p>
+        <H3 class="text-center text-4xl xl:text-5xl xl:pb-6 font-lg font-serif px-18 leading-relaxed">ASIAN RESTAURANT
+        </H3>
+        <p class="text-center pb-5 xl:pb-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
+            ratione expedita harum veniam? Architecto quasi, velit tempore </p>
+        <button class=" rounded-md w-32 ml-28 mb-20 p-3 font-semibold ">ORDER NOW</button>
+
+    </div>
+    <!-- asia end here -->
+    <div class="system-wecook pt-14">
+
+        <div class="images1  px-10 xl:px-0 xl:relative xl:mr-36">
+            <img src="img/image-1.jpg" alt="" class="xl:relative top-14">
+        </div>
+
+        <div class="wecook bg-yellow-700 mx-3  xl:mx-0 xl:text-xl  text-white text-center ">
+            <h3 class="pt-3 text-2xl font-medium  xl:pt-10 xl:text-4xl">We cook delicious</h3>
+            <div class="lightcolor bg-yellow-600 mt-5 mx-10 py-3 mb-2 xl:mt-10 xl:mb-5">
+                <p>You can call us on:</p>
+                <p>+132 89342 2321</p>
+            </div>
+            <p class="xl:pb-5"> OR</p>
+            <button class="bg-white text-yellow-700 rounded-md  p-2 mb-3">ORDER NOW</button>
+
+        </div>
+
+        <div class="image2 px-10 xl:px-0 xl:relative">
+            <img src="img/image-2.jpg" alt="" class="xl:relative top-14">
+        </div>
+
+    </div>
+     <!-- we cook end here -->
+
+      <!-- menu items start here -->
+    <div class="menu-items text-center p-24 xl:flex xl:justify-between">
+
+        <div class="dish1">
+            <img src="img/dish-1.png" alt="" class="pb-5 border-full border-black mb-3">
+            <h3 class="font-semibold pb-5">Breakfast</h3>
+        </div>
+
+        <div class="dish-2">
+            <img src="img/dish-2.png" alt="" class="pb-5 border-full border-black mb-3">
+            <h3 class="font-semibold pb-5">Lunch</h3>
+        </div>
+
+        <div class="dish-3">
+            <img src="img/dish-3.png" alt="" class="pb-5 border-full border-black mb-3">
+            <h3 class="font-semibold pb-5">Dinner</h3>
+        </div>
+
+        <div class="dish-4">
+            <img src="img/dish-4.png" alt="" class="pb-5 border-full border-black mb-3">
+            <h3 class="font-semibold pb-5">Desert</h3>
+        </div>
+    </div>
+<!-- menu items end here -->
+
+<!-- Book your table start here -->
+<div class="book-table p-16 xl:flex">
+    <h3 class="text-white text-xl font-bold -mt-10 pb-10 xl:hidden ">BOOK YOUR TABLE NOW</h3>
+
+    <div class="book-img xl:ml-60 xl:mt-16 ">
+        <img src="img/flow.jpg" alt="" >
+    </div>
+
+    <div class="form  bg-white text-black  xl:h-72 xl:w-96 xl:mt-16">
+        
+        <h3 class="text-center pt-3 font-bold font-serif pb-5 xl:pt-10 xl:text-xl ">Reservation</h3>
+
+        <div class="flex flex-col -ml-5 xl:flex xl:flex-row xl:-ml-10 ">
+        <select name="day" id="" class="bg-gray-200 h-6 w-40 ml-14 mb-3">
+            <option value="">Select Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+       <br>
+       
+       <select name="hours" id="" class="bg-gray-200 h-6 w-40 ml-14 mb-3 xl:ml-5">
+        <option value="">Select Time</option>
+        <option value="1:00">1:00</option>
+        <option value="2:00">2:00</option>
+        <option value="3:00">3:00</option>
+    </select>
+    <br>
+    </div>
+
+    <div class="flex flex-col xl:flex xl:flex-row  ">
+        <input type="text" name="" id="" placeholder="Full Name"  class="ml-10 mt-4 w-40 border-b-2 xl:ml-0 xl:mb-5 xl:ml-5 xl:mr-3 xl:mb-10">   
+        <br> <br>
+        <input type="tel" name="" id="" placeholder="Phone Number" class="ml-10 mt-2 w-40 mb-5 border-b-2 xl:ml-0 xl:mb-10 ">
+        <br>
+     </div>
+
+     <div class="flex flex-col xl:flex xl:flex-row ">
+        <select name="Person" id="" class="bg-gray-200 h-6 w-40 ml-10 mb-3 text-sm font-normal xl:ml-5 xl:mr-5">
+            <option value="" >How many person?</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <br>
+        <button class=" text-white text-sm h-6 w-40 ml-10 mb-3 xl:ml-0">Book Your Table</button>
+     </div>
+</div>
+
+
+</div>
+<!-- book table end here -->
+
+<!-- Get application start here -->
+<div class="application text-white p-10">
+    <h3 class="text-xl text-center font-bold pb-5">Get Application for your phone </h3>
+    <button class="bg-white text-yellow-500 rounded-md ml-20 p-2  download">Download Now</button>
+</div>
+<!-- Get application end here -->
+
+
+    <!-- weekly features start here -->
+    <div class="weekly p-10      xl:mx-20 xl:mb-10">
+        <h3 class="text-center pb-10 text-xl font-bold">WEEKLY FEATURED FOOD</h3>
+
+        <div class="color flex flex-col  xl:flex xl:flex-row xl:space-x-5">
+            <div class="breakfast p-10  ">
+                <h3 class="text-left font-bold pb-3">Breakfast</h3>
+                 <hr> <hr>    <hr class="mb-5 ">
+                <img src="img/b-1.jpg" alt="" >
+                <div class="white p-5 bg-white text-black">
+                <h3 class="pb-3 text-lg font-bold">Little piece of cake</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nesciunt?</p>
+            </div>
+            </div>
+
+            <div class="lunch p-10">
+                <h3 class="text-left font-bold pb-3">Lunch</h3>
+            <hr> <hr> <hr class="mb-5">
+                <img src="img/b-1.jpg" alt="">
+                <div class="white p-5 bg-white text-black">
+                <h3 class="pb-3 text-lg font-bold">Little piece of cake</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nesciunt?</p>
+            </div>
+            </div>
+
+            <div class="dinner  p-10">
+                <h3 class="text-left font-bold pb-3">Dinner</h3>
+                <hr> <hr> <hr class="mb-5">
+                <img src="img/b-1.jpg" alt="">
+                <div class="white p-5 bg-white text-black">
+                <h3 class="pb-3 text-lg font-bold">Little piece of cake</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nesciunt?</p>
+            </div>
+            </div>
+           
+
+        </div>
+
+
+    </div>
+    <!-- weekly end here -->
+
+    <!-- out blog start here -->
+    <div class="blog p-10">
+        <h3 class="text-center pb-10 text-xl font-bold">OUR BLOG POST</h3>
+     <div class="top flex flex-col xl:flex xl:flex-row  mb-10">
+
+         <div class="left">
+             <div class="flex flex-col xl:flex xl:flex-row">
+             <img src="img/read-1.jpg" alt="">
+             <div class="flex flex-col text-black bg-white p-5  mb-10 xl:mb-0   xl:mr-10 mr-0 ">
+              <h3 class="text-lg font-semibold pb-2">Stumptown Tofu Schlitz</h3>
+              <p class="text-sm text-gray-400 pb-5">Branding/ Admin</p>
+              <p class="text-sm  text-gray-400 pb-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, blanditiis?</p>
+              <h3 class="text-yellow-700 ">CONTINUE READING</h3>
+             </div>
+         </div>
+         </div>
+
+         <div class="RIGHT">
+             <div class="flex flex-col xl:flex xl:flex-row">
+             <img src="img/read-2.jpg" alt="">
+             <div class="flex flex-col text-black bg-white p-5 xl:mr-5 mr-0  mb-10 xl:mb-0">
+                 <h3 class="text-lg font-semibold pb-2">Stumptown Tofu Schlitz</h3>
+                 <p class="text-sm text-gray-400 pb-5">Branding/ Admin</p>
+                 <p class="text-sm  text-gray-400 pb-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, blanditiis?</p>
+                 <h3 class="text-yellow-700">CONTINUE READING</h3>
+                </div>
+         </div>
+         </div>
+     </div>
+
+     <div class="bottom flex flex-col xl:flex xl:flex-row xl:mb-10" >
+         <div class="left">
+             <div class="flex  flex-col   xl:flex xl:flex-row">
+             <img src="img/read-1.jpg" alt="">
+             <div class="flex flex-col text-black bg-white p-5 xl:mr-10 mr-0  mb-10 xl:mb-0 ">
+              <h3 class="text-lg font-semibold pb-2">Stumptown Tofu Schlitz</h3>
+              <p class="text-sm text-gray-400 pb-5">Branding/ Admin</p>
+              <p class="text-sm  text-gray-400 pb-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, blanditiis?</p>
+              <h3 class="text-yellow-700">CONTINUE READING</h3>
+             </div>
+         </div>
+         </div>
+
+         <div class="RIGHT">
+             <div class="flex flex-col xl:flex xl:flex-row">
+             <img src="img/read-2.jpg" alt="">
+             <div class="flex flex-col text-black bg-white p-5 xl:mr-5 mb-10 xl:mb-0">
+                 <h3 class="text-lg font-semibold pb-2">Stumptown Tofu Schlitz</h3>
+                 <p class="text-sm text-gray-400 pb-5">Branding/ Admin</p>
+                 <p class="text-sm  text-gray-400 pb-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, blanditiis?</p>
+                 <h3 class="text-yellow-700">CONTINUE READING</h3>
+                </div>
+         </div>
+         </div>    
+
+     </div>
+ </div>
+
+ <!-- our blog end here -->
+
+ <!-- sign up start here -->
+ <div class="sign text-white text-center p-10 xl:p-20 ">
+    <h3 class="text-lg font-bold  mb-10  xl:-mt-10"> SIGNUP FOR OUR NEWSLETTERS</h3>
+    <input type="email" name="" id="" placeholder="Email" class="w-64 h-10 rounded-md ml-5 mb-5 p-3 block  xl:inline xl:mr-4 xl:w-96">
+        <button class="send ml-10 border-solid border-2 -ml-2  border-white rounded-md p-2 h-10 ">SEND MESSAGE</button>
+ </div>
+<!-- sign up end here -->
+
+
+<footer class="text-white flex  flex-col space-y-5 p-5 text-center xl:flex xl:flex-row xl:justify-evenly xl:p-10  ">
+    <div class="left xl:mt-5">
+        <h3>Copyright © 2020 Masood Ahmed</h3>
+    </div>
+
+    <div class="center space-x-5 ">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+    </div>
+
+    <div class="right">
+        Design by Masood Ahmed
+    </div>
+</footer>
+
+</body>
+</html>
